@@ -1,0 +1,48 @@
+# 依赖文件
+node_modules/
+vendor/
+
+# 构建产物
+web/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# 测试文件
+*.test
+
+# 数据库文件
+*.db
+*.sqlite
+
+# 日志文件
+*.log
+
+# 存储文件
+server/storage/files/*
+!server/storage/.gitkeep
+
+# 环境配置
+.env
+.env.local
+.env.*.local
+
+# IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# AI工具
+.claude/
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.temp
